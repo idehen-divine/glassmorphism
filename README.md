@@ -4,7 +4,7 @@ This project demonstrates a glassmorphism-styled sign-up form. Glassmorphism is 
 
 ## Preview
 
-![Glassmorphism Form Preview](/assets/screenshot.png)
+![Glassmorphism Form Preview](/assets/Screenshot.jpg)
 
 ## Live Demo
 

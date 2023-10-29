@@ -1,0 +1,52 @@
+:root {
+  font-size: 20px;
+  box-sizing: inherit;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font: 1em/1.618 Inter, sans-serif;
+  color: #224;
+  background: url(glass.jpg) center / cover no-repeat fixed;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  max-width: 500px;
+  min-width: 500px;
+  height: 300px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.25),
+    rgba(70, 32, 175, 0.75),
+    70%,
+    rgba(255, 255, 255, 0.25)
+  ); */
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.25),
+    rgba(70, 32, 175, 0.75),
+    70%,
+    rgba(255, 255, 255, 0.25)
+  );
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow:
+    inset 4px 4px 5px 0 rgba(255, 255, 255, .25),
+    inset -4px -4px 5px 0 rgba(0, 0, 0, 0.125),
+    0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(5px) ;
+  box-shadow:
+    inset 4px 4px 5px 0 rgba(255, 255, 255, .25),
+    inset -4px -4px 5px 0 rgba(0, 0, 0, 0.125),
+    0 0 10px 1px rgba(0, 0, 0, 0.25);
+}
